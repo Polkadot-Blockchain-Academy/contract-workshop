@@ -1,0 +1,16 @@
+# Solidity Compiler files
+evm/cache/
+evm/out/
+
+# Ignores forge development broadcast logs
+!evm/broadcast
+evm/broadcast/*/31337/
+evm/broadcast/**/dry-run/
+
+# Cargo artifacts from ink contracts
+**/target
+
+# Some common ones
+.vscode
+log/*.log
+tmp/**

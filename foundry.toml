@@ -1,0 +1,13 @@
+[profile.default]
+src = "evm/src"
+out = "evm/out"
+test = "evm/test"
+libs = ["evm/lib"]
+cache_path = "evm/cache"
+ffi = true
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
+# From https://ethereum.stackexchange.com/a/144830/9963
+# ignore solc warnings for deprecated selfdestruct
+# ignored_error_codes = ["5159"]
